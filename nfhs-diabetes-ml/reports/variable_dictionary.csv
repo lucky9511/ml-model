@@ -1,0 +1,39 @@
+variable,variable_label,domain_category,dtype,value_labels,special_missing_codes,measurement_scale_notes
+caseid,Case Identification,Survey Design & Identifiers,object,Continuous / Numeric ID,None,Standard coded integer
+v001,Cluster number (PSU),Survey Design & Identifiers,int64,Continuous / Numeric ID,None,Standard coded integer
+v002,Household number,Survey Design & Identifiers,int64,Continuous / Numeric ID,None,Standard coded integer
+v003,Respondent's line number,Survey Design & Identifiers,int64,Continuous / Numeric ID,None,Standard coded integer
+v005,Sample weight (6 decimals),Survey Design & Identifiers,int64,Continuous / Numeric ID,None,"Divided by 1,000,000 for normalized survey sampling weight"
+v012,Respondent's current age,Demographic & Socioeconomic,int64,Continuous / Numeric ID,None,Standard coded integer
+v024,State / Union Territory,Demographic & Socioeconomic,int64,Continuous / Numeric ID,None,Standard coded integer
+v025,Type of place of residence,Demographic & Socioeconomic,int64,1: Urban; 2: Rural,None,Standard coded integer
+v106,Highest educational level,Demographic & Socioeconomic,int64,0: No education; 1: Primary; 2: Secondary; 3: Higher,None,Standard coded integer
+v130,Religion,Demographic & Socioeconomic,int64,1: Hindu; 2: Muslim; 3: Christian; 4: Sikh; 5: Buddhist; 6: Jain; 96: Other,None,Standard coded integer
+v131,Caste or tribe,Demographic & Socioeconomic,int64,1: Scheduled Caste; 2: Scheduled Tribe; 3: OBC; 4: General/None; 8: Don't know,8,Standard coded integer
+v190,Wealth index quintile,Demographic & Socioeconomic,int64,1: Poorest; 2: Poorer; 3: Middle; 4: Richer; 5: Richest,None,Standard coded integer
+v502,Current marital status,Demographic & Socioeconomic,int64,0: Never married; 1: Currently married; 2: Formerly married,None,Standard coded integer
+v714,Respondent currently working,Demographic & Socioeconomic,int64,0: No; 1: Yes; 9: Missing,9,Standard coded integer
+v481,Covered by health insurance,Healthcare Access & Insurance,int64,0: No; 1: Yes; 9: Missing,9,Standard coded integer
+v438,Height in cm (1 decimal),Anthropometric Biomarkers,int64,Continuous / Numeric ID,"9998, 9999",Height in mm/tenths of cm (divide by 10 for cm). 9998 = Flagged/Refused
+v445,Body Mass Index (2 decimals),Anthropometric Biomarkers,int64,Continuous / Numeric ID,"9998, 9999",BMI with 2 implied decimals (divide by 100 for kg/m2). 9998 = Flagged/Refused
+v447,Weight in kg (1 decimal),Anthropometric Biomarkers,int64,Continuous / Numeric ID,"9998, 9999",Weight with 1 implied decimal (divide by 10 for kg). 9998 = Flagged/Refused
+sb221,Systolic blood pressure (mmHg),Blood Pressure & Hypertension,int64,Continuous / Numeric ID,"998, 999",Systolic blood pressure (mmHg). 998 = Not measured/Refused
+sb222,Diastolic blood pressure (mmHg),Blood Pressure & Hypertension,int64,Continuous / Numeric ID,"998, 999",Diastolic blood pressure (mmHg). 998 = Not measured/Refused
+s728c,Told by doctor: High blood pressure / hypertension,Blood Pressure & Hypertension,int64,0: No; 1: Yes; 9: Missing,9,Standard coded integer
+v463a,Uses tobacco / cigarettes / bidi,Lifestyle & Substance Use,int64,0: No; 1: Yes; 9: Missing,9,Standard coded integer
+s716,Consumes alcohol,Lifestyle & Substance Use,int64,0: No; 1: Yes; 9: Missing,9,Standard coded integer
+s706a,Diet frequency: Milk or curd,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706b,Diet frequency: Pulses or beans,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706c,Diet frequency: Dark green leafy vegetables,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706d,Diet frequency: Fruits,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706e,Diet frequency: Eggs,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706f,Diet frequency: Fish,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706g,Diet frequency: Chicken or meat,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706h,Diet frequency: Fried food,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s706i,Diet frequency: Aerated drinks,Dietary Frequency,int64,1: Daily; 2: Weekly; 3: Occasionally; 4: Never; 9: Missing,9,Standard coded integer
+s728d,Told by doctor: Cancer,Chronic Comorbidities,int64,0: No; 1: Yes,None,Standard coded integer
+s728e,Told by doctor: Asthma,Chronic Comorbidities,int64,0: No; 1: Yes,None,Standard coded integer
+s728f,Told by doctor: Thyroid disorder,Chronic Comorbidities,int64,0: No; 1: Yes,None,Standard coded integer
+s728g,Told by doctor: Heart disease,Chronic Comorbidities,int64,0: No; 1: Yes,None,Standard coded integer
+s728a,Told by doctor: Diabetes,Diabetes Status & Treatment,int64,0: No; 1: Yes; 8: Don't know; 9: Missing,"8, 9","0=No, 1=Yes, 8=Don't know, 9=Missing"
+s728b,Currently taking medicine for diabetes (LEAKAGE),Diabetes Status & Treatment,int64,0: No; 1: Yes; 9: Missing,9,"0=No, 1=Yes, 9=Missing (CAUTION: Treatment leakage if used as predictor)"

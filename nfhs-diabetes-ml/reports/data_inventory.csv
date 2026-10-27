@@ -1,0 +1,39 @@
+variable,label,dtype,non_null_count,unique_values,min_val,max_val,special_codes_detected
+caseid,Case Identification,object,12000,11993,100202102,999810501,None
+v001,Cluster number (PSU),int64,12000,6615,1002.0,9998.0,None
+v002,Household number,int64,12000,149,1.0,149.0,None
+v003,Respondent's line number,int64,12000,9,1.0,9.0,None
+v005,Sample weight (6 decimals),int64,12000,11938,187409.0,5581977.0,None
+v012,Respondent's current age,int64,12000,35,15.0,49.0,None
+v024,State / Union Territory,int64,12000,36,1.0,36.0,None
+v025,Type of place of residence,int64,12000,2,1.0,2.0,None
+v106,Highest educational level,int64,12000,4,0.0,3.0,None
+v130,Religion,int64,12000,7,1.0,96.0,None
+v131,Caste or tribe,int64,12000,5,1.0,8.0,8 (n=214)
+v190,Wealth index quintile,int64,12000,5,1.0,5.0,None
+v502,Current marital status,int64,12000,3,0.0,2.0,None
+v714,Respondent currently working,int64,12000,3,0.0,9.0,9 (n=136)
+v481,Covered by health insurance,int64,12000,3,0.0,9.0,9 (n=121)
+v438,Height in cm (1 decimal),int64,12000,404,1295.0,9998.0,9998 (n=373)
+v445,Body Mass Index (2 decimals),int64,12000,1762,1404.0,9998.0,9998 (n=373)
+v447,Weight in kg (1 decimal),int64,12000,586,273.0,9998.0,9998 (n=373)
+sb221,Systolic blood pressure (mmHg),int64,12000,89,80.0,998.0,998 (n=483)
+sb222,Diastolic blood pressure (mmHg),int64,12000,57,50.0,998.0,998 (n=483)
+s728c,Told by doctor: High blood pressure / hypertension,int64,12000,3,0.0,9.0,9 (n=127)
+v463a,Uses tobacco / cigarettes / bidi,int64,12000,3,0.0,9.0,9 (n=52)
+s716,Consumes alcohol,int64,12000,3,0.0,9.0,9 (n=62)
+s706a,Diet frequency: Milk or curd,int64,12000,5,1.0,9.0,9 (n=113)
+s706b,Diet frequency: Pulses or beans,int64,12000,5,1.0,9.0,9 (n=103)
+s706c,Diet frequency: Dark green leafy vegetables,int64,12000,5,1.0,9.0,9 (n=125)
+s706d,Diet frequency: Fruits,int64,12000,5,1.0,9.0,9 (n=97)
+s706e,Diet frequency: Eggs,int64,12000,5,1.0,9.0,9 (n=130)
+s706f,Diet frequency: Fish,int64,12000,5,1.0,9.0,9 (n=115)
+s706g,Diet frequency: Chicken or meat,int64,12000,5,1.0,9.0,9 (n=124)
+s706h,Diet frequency: Fried food,int64,12000,5,1.0,9.0,9 (n=104)
+s706i,Diet frequency: Aerated drinks,int64,12000,5,1.0,9.0,9 (n=136)
+s728d,Told by doctor: Cancer,int64,12000,2,0.0,1.0,None
+s728e,Told by doctor: Asthma,int64,12000,2,0.0,1.0,None
+s728f,Told by doctor: Thyroid disorder,int64,12000,2,0.0,1.0,None
+s728g,Told by doctor: Heart disease,int64,12000,2,0.0,1.0,None
+s728a,Told by doctor: Diabetes,int64,12000,4,0.0,9.0,8 (n=54); 9 (n=48)
+s728b,Currently taking medicine for diabetes (LEAKAGE),int64,12000,3,0.0,9.0,9 (n=102)

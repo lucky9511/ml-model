@@ -1,0 +1,39 @@
+variable,variable_label,total_rows,raw_nan_count,sentinel_missing_count,effective_missing_count,effective_missing_pct,special_codes_breakdown
+caseid,Case Identification,12000,0,0,0,0.0,None
+v001,Cluster number (PSU),12000,0,0,0,0.0,None
+v002,Household number,12000,0,0,0,0.0,None
+v003,Respondent's line number,12000,0,0,0,0.0,None
+v005,Sample weight (6 decimals),12000,0,0,0,0.0,None
+v012,Respondent's current age,12000,0,0,0,0.0,None
+v024,State / Union Territory,12000,0,0,0,0.0,None
+v025,Type of place of residence,12000,0,0,0,0.0,None
+v106,Highest educational level,12000,0,0,0,0.0,None
+v130,Religion,12000,0,0,0,0.0,None
+v131,Caste or tribe,12000,0,214,214,1.78,code_8=214
+v190,Wealth index quintile,12000,0,0,0,0.0,None
+v502,Current marital status,12000,0,0,0,0.0,None
+v714,Respondent currently working,12000,0,136,136,1.13,code_9=136
+v481,Covered by health insurance,12000,0,121,121,1.01,code_9=121
+v438,Height in cm (1 decimal),12000,0,373,373,3.11,code_9998=373
+v445,Body Mass Index (2 decimals),12000,0,373,373,3.11,code_9998=373
+v447,Weight in kg (1 decimal),12000,0,373,373,3.11,code_9998=373
+sb221,Systolic blood pressure (mmHg),12000,0,483,483,4.03,code_998=483
+sb222,Diastolic blood pressure (mmHg),12000,0,483,483,4.03,code_998=483
+s728c,Told by doctor: High blood pressure / hypertension,12000,0,127,127,1.06,code_9=127
+v463a,Uses tobacco / cigarettes / bidi,12000,0,52,52,0.43,code_9=52
+s716,Consumes alcohol,12000,0,62,62,0.52,code_9=62
+s706a,Diet frequency: Milk or curd,12000,0,113,113,0.94,code_9=113
+s706b,Diet frequency: Pulses or beans,12000,0,103,103,0.86,code_9=103
+s706c,Diet frequency: Dark green leafy vegetables,12000,0,125,125,1.04,code_9=125
+s706d,Diet frequency: Fruits,12000,0,97,97,0.81,code_9=97
+s706e,Diet frequency: Eggs,12000,0,130,130,1.08,code_9=130
+s706f,Diet frequency: Fish,12000,0,115,115,0.96,code_9=115
+s706g,Diet frequency: Chicken or meat,12000,0,124,124,1.03,code_9=124
+s706h,Diet frequency: Fried food,12000,0,104,104,0.87,code_9=104
+s706i,Diet frequency: Aerated drinks,12000,0,136,136,1.13,code_9=136
+s728d,Told by doctor: Cancer,12000,0,0,0,0.0,None
+s728e,Told by doctor: Asthma,12000,0,0,0,0.0,None
+s728f,Told by doctor: Thyroid disorder,12000,0,0,0,0.0,None
+s728g,Told by doctor: Heart disease,12000,0,0,0,0.0,None
+s728a,Told by doctor: Diabetes,12000,0,102,102,0.85,code_8=54; code_9=48
+s728b,Currently taking medicine for diabetes (LEAKAGE),12000,0,102,102,0.85,code_9=102

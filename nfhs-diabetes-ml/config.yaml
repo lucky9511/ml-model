@@ -1,0 +1,50 @@
+# NFHS-5 Diabetes Machine Learning Project Configuration
+
+project_name: "nfhs-diabetes-ml"
+version: "0.1.0"
+random_state: 42
+
+paths:
+  raw_data_dir: "data/raw"
+  interim_data_dir: "data/interim"
+  processed_data_dir: "data/processed"
+  models_dir: "models"
+  reports_figures_dir: "reports/figures"
+  reports_tables_dir: "reports/tables"
+  notebooks_dir: "notebooks"
+
+data:
+  survey_name: "NFHS-5 (2019-21) India"
+  recode_type: "Women's Individual Recode (IAIR7D)"
+  target_column: "diabetes_status"
+  # Target definition criteria (e.g., self-reported or blood glucose measurement >= 140 mg/dl / >= 200 mg/dl)
+  biomarker_columns:
+    - "v440"   # Height/Age percentile
+    - "v442"   # Body Mass Index (BMI)
+    - "v445"   # BMI (formatted / with decimal)
+    - "s1306"  # Random blood glucose reading (mg/dl) or similar DHS biomarker
+  demographic_columns:
+    - "v012"   # Age of respondent
+    - "v024"   # State / Region
+    - "v025"   # Type of place of residence (Urban/Rural)
+    - "v106"   # Highest educational level
+    - "v190"   # Wealth index quintile
+
+model:
+  random_state: 42
+  test_size: 0.20
+  val_size: 0.10
+  cv_folds: 5
+  stratified: true
+  scoring_metric: "roc_auc"
+  imbalance_handling: "smote" # options: "smote", "class_weight", "none"
+
+models_to_evaluate:
+  - "logistic_regression"
+  - "random_forest"
+  - "lightgbm"
+  - "xgboost"
+
+explainability:
+  shap_sample_size: 1000
+  tree_explainer: true
